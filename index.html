@@ -39,6 +39,59 @@
         margin: 0 auto 30px;
     }
 }
+/* Fix Home + About when phone uses Desktop Site */
+@media (min-width: 768px) and (max-width: 1100px) {
+
+    /* HOME */
+    #home-section .one-third,
+    #home-section .one-forth {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    #home-section .hero-image-container {
+        padding-left: 0 !important;
+        justify-content: center !important;
+        height: auto !important;
+        min-height: 350px;
+    }
+
+    #home-section .hero-image-container img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    #home-section .one-forth {
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    /* ABOUT */
+    #about-section .col-md-5,
+    #about-section .col-md-7 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    #about-section .col-md-5 {
+        margin-bottom: 30px;
+    }
+
+    #about-section .col-md-7 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    #about-section .profile-img {
+        width: 300px;
+        height: 300px;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 /*======================================
 //--//-->   ABOUT
 ======================================*/
